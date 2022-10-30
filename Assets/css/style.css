@@ -7,23 +7,36 @@
     margin: 0;
   }
   
-  header {
-    padding: 60px;
-    text-align: center;
-    background: #13293d;
-    color: #fff;
+  .header {
+    padding: 20px;
+    background-color: #fdf3f1;
+    color: #4b4342;
   }
   
-  nav {
-    display: flex;
-    background-color: #d8a47f;
+  .header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
   }
-  
-  nav p {
-    padding: 14px 20px;
+  .header nav ul {
+    list-style-type: none;
+}
+ .header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+   
+  }
+  h1 {
+    display: inline-block;
+    font-size: 36px;
+  }
+/*Anchor Selector*/
+a {
+    color: #4b4342;
     text-decoration: none;
-  }
-  
+}
   main {
     display: flex;
   }
@@ -48,14 +61,23 @@
     color: #fff;
   }
   
-  /* Image Placeholders */
-  .sample-img {
-    background-color: #fff;
-    width: 100%;
-    padding: 20px;
-    height: 200px;
-    border: 1px solid black;
+  /* Profile Picture */
+.profile-pic {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top:50%;
+    left:50%;
+
   }
+    /* Image Placeholders */
+    .sample-img {
+        background-color: #fff;
+        width: 100%;
+        padding: 20px;
+        height: 200px;
+        border: 1px solid black;
+      }
   
   /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
   
