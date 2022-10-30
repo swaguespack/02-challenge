@@ -63,11 +63,9 @@ a {
   
   /* Profile Picture */
 .profile-pic {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    top:50%;
-    left:50%;
+    max-width: 100px;
+    height: auto;
+   border-radius: 50%;
 
   }
     /* Image Placeholders */
