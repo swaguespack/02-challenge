@@ -14,21 +14,19 @@
   }
   
   .header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
+    margin-right: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    float: right;
   }
-  .header nav ul {
-    list-style-type: none;
-}
+
  .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+ 
    
   }
-  h1 {
+h1 {
     display: inline-block;
     font-size: 36px;
   }
@@ -64,19 +62,9 @@ a {
   /* Profile Picture */
 .profile-pic {
     max-width: 100px;
-    height: auto;
-   border-radius: 50%;
 
   }
-    /* Image Placeholders */
-    .sample-img {
-        background-color: #fff;
-        width: 100%;
-        padding: 20px;
-        height: 200px;
-        border: 1px solid black;
-      }
-  
+
   /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
   
   /* Tablets - header changes color */
