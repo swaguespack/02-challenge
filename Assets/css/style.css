@@ -127,3 +127,8 @@ footer {
 #myImage{
   opacity: 0.6;
 }
+.resume{ 
+text-decoration: underline;
+text-decoration-color: blue;
+color:blue;
+}
