@@ -7,29 +7,35 @@
     margin: 0;
   }
   
-  .header {
+  .topnav {
     padding: 20px;
     background-color: #fdf3f1;
     color: #4b4342;
+    overflow: hidden;
   }
   
-  .header nav {
-    margin-right: 25px;
+.topnav a {
+    display: inline-flex;
+    float: right;
+    padding: 12px 14px;
+    margin-left: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    float: right;
+  }
+  .topnav a:hover{
+    background-color: #f1fbfd;
+    color:#13293d;
   }
 
- .header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
- 
-   
-  }
 h1 {
     display: inline-block;
     font-size: 36px;
   }
+
+h2 {
+    margin-bottom: 20px;
+    font-size:24px;}
+
 /*Anchor Selector*/
 a {
     color: #4b4342;
@@ -39,19 +45,6 @@ a {
     display: flex;
   }
   
-  aside {
-    flex: 30%;
-    background-color: #b9c6ae;
-    padding: 20px;
-    flex-wrap: wrap;
-  }
-  
-  section {
-    flex: 70%;
-    background-color: #fff;
-    padding: 20px;
-  }
-  
   footer {
     padding: 20px;
     text-align: center;
@@ -59,32 +52,27 @@ a {
     color: #fff;
   }
   
-  /* Profile Picture */
-.profile-pic {
-    max-width: 100px;
+  .content {
+    width: 100%;
+    display: inline-block;
+    margin-left: 0px;
 
-  }
 
-  /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
-  
-  /* Tablets - header changes color */
-  @media screen and (max-width: 992px) {
-    header {
-      background: #772014;
+}
+  /*Content Text Alignment Class*/
+  .content-text {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fdf3f1;
+    color: #4b4342;}
+
+    .profile-pic{
+        float: left;
+        margin-right: 25px;
+        max-height: 200px;
     }
-  }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
+    p {
+        font-size: 18px;
     }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
-  }
-  
