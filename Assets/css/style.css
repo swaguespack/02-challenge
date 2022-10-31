@@ -6,73 +6,128 @@
     font-family: Arial;
     margin: 0;
   }
-  
-  .topnav {
+
+/*Header formating*/
+  .header {
     padding: 20px;
     background-color: #fdf3f1;
     color: #4b4342;
     overflow: hidden;
-  }
-  
-.topnav a {
-    display: inline-flex;
-    float: right;
-    padding: 12px 14px;
-    margin-left: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-  }
-  .topnav a:hover{
-    background-color: #f1fbfd;
-    color:#13293d;
+    margin-bottom: 20px;
   }
 
+/*Nav bar list options within header*/
+.header nav {
+    padding: 12px 14px;  
+    float: right;
+    font-size: 20px;
+  }
+  .header nav ul li{
+    display: inline-flex;
+    margin-left: 20px;
+  }
+  .header nav a:hover{
+    background-color: #dbf5fa;
+    color:#4b4342;
+  }
+
+/*Portfolio profile name*/
 h1 {
-    display: inline-block;
+    display: inline-flex;
     font-size: 36px;
   }
 
+
 h2 {
     margin-bottom: 20px;
-    font-size:24px;}
+    font-size:24px;
+  }
+
 
 /*Anchor Selector*/
 a {
     color: #4b4342;
     text-decoration: none;
 }
-  main {
+main {
     display: flex;
   }
+  aside {
+    flex: 30%;
+    background-color: #fdf3f1;
+    padding: 20px;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4b4342;
+  }
   
+  section {
+    flex: 70%;
+    background-color: #fdf3f1;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4b4342;
+  }
   footer {
     padding: 20px;
     text-align: center;
-    background: #13293d;
-    color: #fff;
+    background-image: url("../images/pink-water-color.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
+  .sample-img {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    border: 1px solid black;
+  }
+  .profile-pic{
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 220px;
+    max-width: 220px;
   
-  .content {
+}
+.first-app{
+  width: 800px;
+  padding: 20px;
+  height: 400px;
+}
+.content-txt {
+  width: 100%;
+  padding: 20px;
+  height: 200px;
+}
+  /*.content {
     width: 100%;
     display: inline-block;
     margin-left: 0px;
 
 
 }
-  /*Content Text Alignment Class*/
+  /*Content Text Alignment Class
   .content-text {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #fdf3f1;
     color: #4b4342;}
 
-    .profile-pic{
-        float: left;
-        margin-right: 25px;
-        max-height: 200px;
-    }
+
+  .first-app {
+          background-image: url("../images/first-app.jpg");
+          width: 600px;
+          padding: 20px;
+          height: 300px;
+          border: 1px solid black;
+        }
+
     p {
         font-size: 18px;
     }
