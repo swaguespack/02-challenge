@@ -37,21 +37,26 @@ h1 {
     font-size: 36px;
   }
 
-
 h2 {
     margin-bottom: 20px;
     font-size:24px;
   }
-  h3 {
-    display: inline-flex;
+h3 {
     font-size: 20px;
   }
-
+h4 {
+  display: inline-flex;
+  font-size: 18px;
+}
 
 /*Anchor Selector*/
 a {
     color: #4b4342;
     text-decoration: none;
+}
+
+p {
+  line-height: 1.6;
 }
 main {
     display: flex;
@@ -83,6 +88,7 @@ main {
   width: 100%;
   padding: 20px;
   height: 200px;
+  
 }
 .container{
   position: relative;
