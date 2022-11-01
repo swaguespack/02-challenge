@@ -10,11 +10,10 @@
 /*Header formating*/
   .header {
     padding: 20px;
-    background-color: #fdf3f1;
+    background-color: #f4c0b6;
     color: #4b4342;
     overflow: hidden;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 20px;
   }
 
 /*Nav bar list options within header*/
@@ -42,6 +41,10 @@ h1 {
 h2 {
     margin-bottom: 20px;
     font-size:24px;
+  }
+  h3 {
+    display: inline-flex;
+    font-size: 20px;
   }
 
 
@@ -116,14 +119,7 @@ margin:5px;
   padding-left: 20px;
   padding-right: 20px;
 }
-footer {
-  padding: 20px;
-  text-align: center;
-  background-image: url("../images/pink-water-color.jpeg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
+
 #myImage{
   opacity: 0.6;
 }
@@ -131,4 +127,23 @@ footer {
 text-decoration: underline;
 text-decoration-color: blue;
 color:blue;
+}
+footer {
+  padding: 20px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url("../images/pink-water-color.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #4b4342;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer nav { 
+  float: right;
+}
+.footer nav ul li{
+  display: inline-flex;
+  margin-left: 20px;
 }
