@@ -1,27 +1,23 @@
 * {
     box-sizing: border-box;
   }
-  
+  /*Body styling*/
   body {
-    font-family: Arial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4b4342;
     margin: 0; 
   }
-
 /*Header formating*/
   .header {
     padding: 20px;
     background-color: #f4c0b6;
-    color: #4b4342;
     overflow: hidden;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-
-/*Nav bar list options within header*/
+/*Nav bar list options within header. Text is floating to right and displayed inline-flex and hover color applied.*/
 .header nav {
     padding: 12px 14px;  
     float: right;
     font-size: 20px;
-  
   }
   .header nav ul li {
     display: inline-flex;
@@ -30,10 +26,9 @@
   }
   .header nav a:hover{
     background-color: #dbf5fa;
-    color:#4b4342;
   }
 
-/*Portfolio profile name*/
+/*Headers throughout webpage*/
 h1 {
     display: inline-flex;
     font-size: 36px;
@@ -53,13 +48,15 @@ h4 {
 
 /*Anchor Selector*/
 a {
-    color: #4b4342;
     text-decoration: none;
+    color: #4b4342;
 }
-
+/*Paragraph line spacing applied*/
 p {
   line-height: 1.6;
 }
+
+/*Main display holding aside and section*/
 main {
     display: flex;
   }
@@ -68,16 +65,13 @@ main {
     background-color: #fdf3f1;
     padding: 20px;
     flex-wrap: wrap;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #4b4342;
   }
   section {
     flex: 70%;
     background-color: #fdf3f1;
     padding: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #4b4342;
   }
+  /*Profile picture in aside*/
   .profile-pic{
     display: flex;
     margin-top: 20px;
@@ -86,22 +80,21 @@ main {
     max-height: 220px;
     max-width: 220px;
 }
+/*Content text within sections*/
 .content-txt {
   width: 100%;
   padding: 20px;
   height: 200px;
   flex-wrap: wrap;
-  
 }
+/*Containers, columns, and text-blocks on top of work images within sections holding work*/
 .container{
   position: relative;
   display:flex;
 }
-
 .container img {
   width: 100%;
 }
-
 .column {
 border-style: solid;
 border-width: 4px;
@@ -109,13 +102,11 @@ border-color:#f3baae;
 position: relative;
 flex: 30%;
 margin:5px;
-
 }
 .column img {
   width: 100%;
   display:flex;
 }
-
 .text-block {
   position: absolute;
   bottom: 20px;
@@ -124,19 +115,20 @@ margin:5px;
   border-width: 4px;
   border-color:#f3baae;
   background-color: #fdf3f1;
-  color:#4b4342;
   padding-left: 20px;
   padding-right: 20px;
 }
-
+/*Opacity for image dulled*/
 #myImage{
   opacity: 0.6;
 }
+/*text for resume link*/
 .resume{ 
 text-decoration: underline;
 text-decoration-color: blue;
 color:blue;
 }
+/*Footer containing contact info*/
 footer {
   padding: 20px;
   overflow: hidden;
@@ -145,10 +137,7 @@ footer {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  color: #4b4342;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 .footer nav { 
   float: right;
 }
