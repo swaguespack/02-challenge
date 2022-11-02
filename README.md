@@ -6,7 +6,7 @@ The 02-Challenge project involved using html and advanced css to deploy a person
 
 Advanced css was used to build the personal portfolio, including flex attributes that allow images on the webpage to shrink when the window is resized. The portfolio inlcudes a name, profile picture, current web development projeccts, a resume, and contact info. The navigation bar links to the relavant section on the webpage. The images in the work section and the resume link opens related content in a new tab.
 
-Alternative text was added to images on the website.
+Alternative text was added to images on the website. A reset css was linked.
 
 
 ## Mock Up
