@@ -92,8 +92,7 @@ section {
 /*Resume text within section*/
 .resume-txt {
   width: 100%;
-  padding: 10px;
-  height: 100px;
+  padding: 20px;
   flex-wrap: wrap;
   text-align: justify;
   margin-bottom: 10px;
