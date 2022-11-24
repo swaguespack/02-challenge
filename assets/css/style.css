@@ -102,6 +102,7 @@ section {
   width: 100%;
   padding: 20px;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 
 }
 /*Containers, columns, and text-blocks on top of work images within sections holding work*/
@@ -126,6 +127,7 @@ margin:5px;
 }
 .text-block {
   position: absolute;
+  flex: 30%;
   bottom: 20px;
   left: 20px;
   border-style: solid;
