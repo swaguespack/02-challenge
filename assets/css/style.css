@@ -127,7 +127,7 @@ margin:5px;
   display:flex;
 }
 .text-block {
-  position: absolute;
+  position:absolute;
   flex: 30%;
   bottom: 20px;
   left: 20px;
@@ -180,9 +180,10 @@ footer {
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 300px) 
+  and (min-device-width: 375px) 
   and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation:portrait) { 
 
 }
 
