@@ -145,3 +145,43 @@ footer {
   display: inline-flex;
   margin-left: 20px;
 }
+/*Media Queries for phone & tablet
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- Galaxy Tab S ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
