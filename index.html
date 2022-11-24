@@ -32,12 +32,12 @@
       <!-- Body: aside and section elements are within main. Containers, columns, and textboxes on top of work
     images are within the section element.Div tag was used to place container, columns, and textboxes styled in css-->
     <main>
-        <aside>
-            <img alt="profile picture of shellby miller" src="./assets/images/profile-pic.png" class="profile-pic">
-          </aside>
+
     
           <section>
+            <div>
             <h2 id="about-me">About Me.</h2>
+            <img alt="profile picture of shellby miller" src="./assets/images/profile-pic.png" class="profile-pic">
             <div class="content-txt">
             <p>My name is Shellby. I am a Senior Data and GIS Analyst at the Atlanta Regional Commission in 
                 Atlanta, Georgia. I am currently enrolled in the Coding Bootcamp at the Georgia Institute of Technology where I am 
@@ -45,7 +45,11 @@
                 This web portfolio highlights some of my web development work to date.
             </p>
         </div>
-            <br />
+        </div>
+            <br/>
+            <br/>
+        <div class="myWork">
+            <div>
             <h2 id="work">My Work.</h2>
             <div class="column">
             <a href="https://swaguespack.github.io/prework-study-guide/" target="_blank">
@@ -56,7 +60,9 @@
                 <p>HTML/CSS/JavaScript</p>
             </div>
         </div>
+    </div>
         <br/>
+    <div>
         <div class="container">
             <div class="column">
             <a href="https://swaguespack.github.io/01-challenge/" target="_blank">
@@ -77,12 +83,15 @@
                 </div>
             </div>
         </div>
+    </div>
         <br />
+        <br/>
         <h2 id="resume">My Resume.</h2>
-        <div class="content-txt">
+        <div class="resume-txt">
             <p>Open a PDF file of my <a href="assets/pdfs/Miller_Shellby_Resume.pdf" target="_blank" class="resume">resume</a>.
             </p>
         </div>
+    </div>
           </section>
       </main>
 

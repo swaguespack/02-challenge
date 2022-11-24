@@ -37,6 +37,7 @@ h1 {
 h2 {
     margin-bottom: 20px;
     font-size:24px;
+    padding: 20px;
   }
 h3 {
     font-size: 20px;
@@ -54,31 +55,30 @@ a {
 /*Paragraph line spacing applied*/
 p {
   line-height: 1.6;
+  
 }
 
-/*Main display holding aside and section*/
+/*Main display holding sections*/
 main {
     display: flex;
   }
-  aside {
-    flex: 30%;
-    background-color: #fdf3f1;
-    padding: 20px;
-    flex-wrap: wrap;
-  }
-  section {
+section {
     flex: 70%;
     background-color: #fdf3f1;
     padding: 20px;
   }
-  /*Profile picture in aside*/
-  .profile-pic{
+/*Profile picture*/
+.profile-pic{
     display: flex;
-    margin-top: 20px;
+    flex:10%;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 20px;
     margin-right: auto;
     margin-left: auto;
-    max-height: 220px;
-    max-width: 220px;
+    max-height: 200px;
+    max-width: 200px;
+    float:left;
 }
 /*Content text within sections*/
 .content-txt {
@@ -86,6 +86,24 @@ main {
   padding: 20px;
   height: 200px;
   flex-wrap: wrap;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+/*Resume text within section*/
+.resume-txt {
+  width: 100%;
+  padding: 10px;
+  height: 100px;
+  flex-wrap: wrap;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+/*My Work in section*/
+.myWork{
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+
 }
 /*Containers, columns, and text-blocks on top of work images within sections holding work*/
 .container{
@@ -145,6 +163,7 @@ footer {
   display: inline-flex;
   margin-left: 20px;
 }
+
 /*Media Queries for phone & tablet
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
