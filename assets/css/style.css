@@ -146,6 +146,15 @@ footer {
   margin-left: 20px;
 }
 /*Media Queries for phone & tablet
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
