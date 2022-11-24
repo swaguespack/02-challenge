@@ -80,11 +80,18 @@ section {
     max-width: 200px;
     float:left;
 }
-/*Content text within sections*/
+/*About me in section*/
+.aboutMe{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex:70%;
+    flex-wrap: wrap;
+}
+/*Content text within About Me*/
 .content-txt {
   width: 100%;
   padding: 20px;
-  height: 200px;
   flex-wrap: wrap;
   text-align: justify;
   margin-bottom: 20px;
@@ -104,7 +111,6 @@ section {
   margin-bottom: 20px;
   flex:70%;
   flex-wrap: wrap;
-
 }
 /*Containers, columns, and text-blocks on top of work images within sections holding work*/
 .container{
@@ -128,7 +134,7 @@ margin:5px;
 }
 .text-block {
   position:absolute;
-  flex: 30%;
+  flex: 70%;
   bottom: 20px;
   left: 20px;
   border-style: solid;
